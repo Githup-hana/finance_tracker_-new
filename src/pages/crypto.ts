@@ -4,4 +4,5 @@ async function cryptoPage() {
   return html;
 }
 
+
 export default cryptoPage;
