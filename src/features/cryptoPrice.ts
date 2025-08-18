@@ -64,7 +64,7 @@ export async function displayCrypto(coinData: CoinData) {
 
   cryptoPriceContainer.innerHTML = `
     <div class="p-6 bg-white rounded-lg shadow-lg max-w-md mx-auto space-y-4">
-      <img src="${coinData.image}" alt="${coinData.name}" class="w-24 h-24 mx-auto mb-4 rounded-full border-2 border-gray-200">
+     
       <h2 class="text-3xl font-semibold text-center text-gray-800">${coinData.name}</h2>
       <div class="space-y-2 text-center text-gray-700">
         <p class="text-lg font-bold">Aktueller Preis: 
